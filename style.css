@@ -1,0 +1,161 @@
+/*global*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 17px;
+}
+.container{
+	width: 80%;
+	height: 100%;
+    margin:auto;
+}
+
+/*sidebar*/
+.sd{
+	width: 60%;
+}
+#sidebar{
+	width: 18%;
+	position: absolute;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	text-transform: uppercase;
+	font-family: sans-serif;
+	left: -18%;
+}
+#sidebar.active{
+	left: 0;
+}
+#sidebar .sidebar a{
+	text-decoration: none;
+	color: #f3f3f3;
+}
+#sidebar a:hover{
+	color: lightgreen;
+}
+#sidebar .sidebar ul li{
+	list-style: none;
+	padding: 20px 13px;
+	border-bottom: 1px solid rgba(230,230,230,.7)
+}
+#sidebar .hamburg-menu{
+	position: absolute;
+	left:20vw;
+	top: 3vh;
+}
+.hamburg-menu span{
+	border-radius: 2px;
+	width: 30px;
+	height: 5px;
+	background-color: #151719;
+	display: block;
+	margin-bottom: 5px; 
+}
+.left{
+	float: left;
+	width: 20vw; 
+	position: absolute;
+	color: white;
+	left:30vw;
+	min-height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+ .left h1 span{
+	color: #111;
+}
+
+/*navigation bar*/
+header{
+	text-transform: uppercase;
+	width: 100%;
+	min-height: 100%;
+}
+
+header .bgvideo{
+	position: fixed;
+	background-size: cover;
+	z-index: -3;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+header .container{
+	background-color: rgba(0,0,0,.7);
+	width: 100%;
+}
+header .nav{
+	font-weight: bold;
+	width: 100%;
+	min-height: 100vh;  
+}
+
+header .right{
+	float: right;
+	width: 40%;
+	min-height: 70px;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+header .right  ul{
+	list-style: none;
+}
+header .right ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+header .right a{
+	color: #f3f3f3;
+	text-decoration: none;
+}
+header li a:hover {
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
